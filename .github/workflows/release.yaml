@@ -79,8 +79,8 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: |
-            eliashaeussler/cache-warmup
-            ghcr.io/eliashaeussler/cache-warmup
+            bytebencher/cache-warmup
+            ghcr.io/bytebencher/cache-warmup
           tags: |
             type=raw,value=latest,enable=${{ github.event_name != 'workflow_dispatch' }}
             type=semver,pattern={{version}}
