@@ -1,5 +1,5 @@
 {
-	"name": "eliashaeussler/cache-warmup",
+	"name": "bytebencher/cache-warmup",
 	"description": "Composer package to warm up website caches, based on a given XML sitemap",
 	"license": "GPL-3.0-or-later",
 	"type": "library",
@@ -8,6 +8,12 @@
 			"name": "Elias Häußler",
 			"email": "elias@haeussler.dev",
 			"homepage": "https://haeussler.dev",
+			"role": "Maintainer"
+		},
+		{
+			"name": "ByteBencher eCommerce",
+			"email": "hello@bytebencher.com",
+			"homepage": "https://www.bytebencher.com",
 			"role": "Maintainer"
 		}
 	],
@@ -25,7 +31,7 @@
 		"guzzlehttp/psr7": "^2.0",
 		"mtownsend/xml-to-array": "^2.0",
 		"psr/http-message": "^1.0 || ^2.0",
-		"psr/log": "^2.0 || ^3.0",
+		"psr/log": "^1.0 || ^2.0 || ^3.0",
 		"symfony/console": "^5.4 || ^6.0 || ^7.0",
 		"symfony/filesystem": "^5.4 || ^6.0 || ^7.0",
 		"symfony/options-resolver": "^5.4 || ^6.0 || ^7.0",
